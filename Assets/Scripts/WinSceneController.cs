@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 public class WinSceneController : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText; // Assign this in the Inspector
+    public TextMeshProUGUI scoreText;
 
     private void Start()
     {

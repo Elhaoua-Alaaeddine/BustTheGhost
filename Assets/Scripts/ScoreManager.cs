@@ -17,7 +17,6 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreText();
         if (score <= 0)
         {
-            // Trigger game over
             GameOver();
         }
     }
@@ -31,7 +30,6 @@ public class ScoreManager : MonoBehaviour
     }
     void GameOver()
     {
-        // Load the game over scene
         SceneManager.LoadScene("GameOverScene");
     }
 }

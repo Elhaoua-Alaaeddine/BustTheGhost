@@ -6,7 +6,6 @@ public class BustsManager : MonoBehaviour
 {
     public TextMeshProUGUI bustsText;
     [SerializeField] int busts = 10;
-    // Start is called before the first frame update
     void Start()
     {
          UpdateBustsText();
@@ -26,7 +25,6 @@ public class BustsManager : MonoBehaviour
     {
         bustsText.text = "Busts Remaining: " + busts.ToString();
     }
-    // Update is called once per frame
     void Update()
     {
 
